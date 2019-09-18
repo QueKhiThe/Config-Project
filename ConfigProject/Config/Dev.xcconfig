@@ -1,0 +1,16 @@
+//
+//  Dev.xcconfig
+//  ConfigProject
+//
+//  Created by MBA0023 on 9/18/19.
+//  Copyright © 2019 MBA0023. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+QKT_APP_NAME = Project (dev)
+QKT_APP_VERSION = 0.3
+
+TEST = "Test 1"
+NAME = "Name 1"
