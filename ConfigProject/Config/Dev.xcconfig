@@ -12,5 +12,5 @@
 QKT_APP_NAME = Project (dev)
 QKT_APP_VERSION = 0.3
 
-TEST = "Test 1"
 NAME = "Name 1"
+TEST = "Test 1"

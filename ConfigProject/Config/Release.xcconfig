@@ -12,5 +12,5 @@
 QKT_APP_NAME = Project (release)
 QKT_APP_VERSION = 0.1
 
-TEST = "Test 3"
 NAME = "Nam 3"
+TEST = "Test 3"
