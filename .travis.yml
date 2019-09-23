@@ -1,5 +1,12 @@
 language: swift
 osx_image: xcode10
-before_install:
-  - bundle install
+cache:
+  - bundler
+  - cocoapods
+install:
+  - set -o pipefail
+  - sudo systemsetup -settimezone Asia/Ho_Chi_Minh
+  - bundle install --path=vendor/bundle --jobs 4 --retry 3
+script:
+  - ./scripts/branch
   - bundle exec pod install --repo-update 
