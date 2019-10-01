@@ -5,6 +5,7 @@ cache:
   - cocoapods
 install:
   - gem install bundler -v 2.0.1
+  - bundle update nokogiri
   - set -o pipefail
   - sudo systemsetup -settimezone Asia/Ho_Chi_Minh
   - bundle install --path=vendor/bundle --jobs 4 --retry 3
