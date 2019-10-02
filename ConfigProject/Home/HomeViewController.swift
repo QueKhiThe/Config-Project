@@ -12,7 +12,8 @@ final class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("aaaaa")
+        print("ID")
+        var saxID = 9
         print(getFromInfo(key: "Name"))
         print(getFromInfo(key: "Test Config"))
     }
