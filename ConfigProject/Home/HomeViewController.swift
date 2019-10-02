@@ -13,7 +13,7 @@ final class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("ID")
-        var saxID = 9
+        var testID = 9
         print(getFromInfo(key: "Name"))
         print(getFromInfo(key: "Test Config"))
     }
