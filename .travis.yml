@@ -3,9 +3,11 @@ osx_image: xcode10
 cache:
   - bundler
   - cocoapods
+before_install:
+  - bundle install
+  - gem install linterbot
 install:
   - gem install bundler -v 2.0.1
-  - gem install linterbot
   - bundle update nokogiri
   - set -o pipefail
   - sudo systemsetup -settimezone Asia/Ho_Chi_Minh
