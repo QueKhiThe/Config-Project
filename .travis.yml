@@ -11,3 +11,4 @@ install:
   - bundle install --path=vendor/bundle --jobs 4 --retry 3
 script:
   - bundle exec pod install --repo-update 
+  - ./scripts/lint
